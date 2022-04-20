@@ -24,6 +24,8 @@ module.exports = {
   'rules': {
     'semi': ['error', 'never'],
     'quotes': ['error', 'single'],
-    'indent': ['error', 2]
+    'indent': ['error', 2],
+    '@typescript-eslint/no-non-null-assertion': 'off',
+    'react/react-in-jsx-scope': 'error'
   }
 }

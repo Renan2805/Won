@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    min-height: 5rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    list-style: none;
+    width: 100%;
+}
