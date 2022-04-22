@@ -1,14 +1,15 @@
 nav {
-    min-height: 5rem;
+    height: 3.5rem;
     width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    position: fixed;
+
     padding: 1rem;
 
     background-color: white;
-
 }
 
 .title {
@@ -23,17 +24,29 @@ nav {
     z-index: 2;
 }
 
+.ham1 {
+    width: 48px;
+}
+
+.ham1 div{
+    display: none;
+}
+
+.act div {
+    display: block;
+}
+
 .menu {
-    width: 50vw;
+    width: 60vw;
     height: 100vh;
-    z-index: 1;
-    padding-top: 5rem;
+    z-index: 0;
+    padding-top: 3.5rem;
     background-color: #282c34;
 
     color: white;
-    font-size: 15px;
+    font-size: 16px;
 
-    position: absolute;
+    position: fixed;
     right: -100vw;
     top: 0;
 
@@ -49,7 +62,7 @@ nav {
 }
 
 .invisible-close-btn {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
 
@@ -73,6 +86,9 @@ nav {
     padding: .5rem .8rem;
     border-radius: 7px;
     transition: .2s;
+
+    text-decoration: none;
+    color: white;
 }
 
 .menu a:hover {
@@ -84,19 +100,32 @@ nav {
 }
 
 @keyframes showMenu {
-    0% {
+    from {
         right: -100vw;
     }
-    100% {
+    to {
         right: 0;
     }
 }
 
 @keyframes hideMenu {
-    0% {
+    from {
         right: 0;
     }
-    100% {
+    to {
         right: -100vw;
+    }
+}
+
+
+@media screen and (min-width: 700px){
+    nav {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .menu {
+        width: 50vw;
     }
 }

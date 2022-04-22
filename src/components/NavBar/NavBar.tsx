@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Hamburger from 'hamburger-react'
 import './NavBar.css'
-import useWindowDimensions from '../../utils/functions'
+import useWindowDimensions from '../../hooks/hooks'
 import { ITEMS } from './MenuItems'
 
 const NavBar = () => {
@@ -10,11 +10,24 @@ const NavBar = () => {
 
   const [isOpen, setOpen] = useState(false)
 
-  if(window.width <= 560) {
+  console.log(ITEMS[0])
+
+  if(window.width <= 700) {
     return (
       <>
         <nav>
-          <div className="spacer"></div>
+          {/* <div className="spacer"></div> */}
+          <div className={isOpen ? 'ham1 act':'ham1'}>
+            <Hamburger
+              size={30}
+              color={isOpen ? 'black':'white'}
+              rounded
+              toggled={isOpen} 
+              toggle={setOpen}
+              onToggle={() => console.log(window)
+              }
+            />
+          </div>
           <h1 className="title">WonTI</h1>
           <Hamburger 
             size={30}
@@ -32,7 +45,13 @@ const NavBar = () => {
           {
             ITEMS.map((item, index) => {
               return (
-                <a key={index}>{item.icon}{item.title}</a>
+                <a 
+                  key={index} 
+                  href={item.to} 
+                  onClick={() => setOpen(false)}
+                >
+                  {item.icon}{item.title}
+                </a>
               )
             })
           }
@@ -42,7 +61,11 @@ const NavBar = () => {
     )
   }else return (
     <nav>
+      <p>{ITEMS[0].title}</p>
+      <p>{ITEMS[1].title}</p>
       <h1 className="title">WonTI</h1>
+      <p>{ITEMS[2].title}</p>
+      <p>{ITEMS[3].title}</p>
     </nav>
   )
   

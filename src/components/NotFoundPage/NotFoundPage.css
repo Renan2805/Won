@@ -1,0 +1,12 @@
+.not-found {
+  color: #6695ff;
+  padding: 2rem;
+  text-align: center;
+  font-weight: bold;
+
+  max-height: 100vh;
+}
+
+.e404 {
+  max-width: 560px;
+}

@@ -3,24 +3,29 @@ import * as IoIcons from 'react-icons/io'
 
 interface MenuItem {
   title: string,
+  to: string,
   icon: ReactElement
 }
 
 export const ITEMS:Array<MenuItem> = [
   {
     title: 'Quem Somos',
-    icon: <IoIcons.IoMdHome size={20}/>
+    to: '#land-section',
+    icon: <IoIcons.IoMdHome size={19}/>
   },
   {
     title: 'Quem Somos',
-    icon: <IoIcons.IoIosBody size={20}/>
+    to: '#second-section',
+    icon: <IoIcons.IoIosAdd size={19}/>
   },
   {
     title: 'Quem Somos',
-    icon: <IoIcons.IoIosCart size={20}/>
+    to: '#third-section',
+    icon: <IoIcons.IoIosCart size={19}/>
   },
   {
     title: 'Quem Somos',
-    icon: <IoIcons.IoIosFingerPrint size={20}/>
+    to: '#fourth-section',
+    icon: <IoIcons.IoIosFingerPrint size={19}/>
   }
 ]
