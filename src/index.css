@@ -3,11 +3,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden !important;
 }
 
 code {

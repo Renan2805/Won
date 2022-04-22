@@ -1,0 +1,102 @@
+nav {
+    min-height: 5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem;
+
+    background-color: white;
+
+}
+
+.title {
+    font-size: 32px;
+}
+
+.spacer {
+    width: 48px;
+}
+
+.hamburger-react {
+    z-index: 2;
+}
+
+.menu {
+    width: 50vw;
+    height: 100vh;
+    z-index: 1;
+    padding-top: 5rem;
+    background-color: #282c34;
+
+    color: white;
+    font-size: 15px;
+
+    position: absolute;
+    right: -100vw;
+    top: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+
+    transition: .8s;
+
+    animation: hideMenu .8s forwards normal;
+}
+
+.invisible-close-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100vh;
+    width: 50vw;
+
+    background-color: transparent;
+    border: 0;
+}
+
+.btn-unactive {
+    display: none
+}
+
+.menu a {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+
+    width: 80%;
+    padding: .5rem .8rem;
+    border-radius: 7px;
+    transition: .2s;
+}
+
+.menu a:hover {
+    background-color: #395285;
+}
+
+.active {
+    animation: showMenu .8s forwards normal;
+}
+
+@keyframes showMenu {
+    0% {
+        right: -100vw;
+    }
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes hideMenu {
+    0% {
+        right: 0;
+    }
+    100% {
+        right: -100vw;
+    }
+}
