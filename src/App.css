@@ -41,7 +41,7 @@
 .land-text {
   color: #f0f0f0;
   line-height: 2;
-  max-width: 80%;
+  width: 80vw;
 }
 
 .land-illustration {
@@ -55,7 +55,34 @@
     flex-wrap: wrap;
   }
 
+  .land-text {
+    max-width: 60vw;
+  }
+
   .land-illustration {
-    width: 50%;
+    max-width: 50%;
+    max-height: 70vh
+  }
+}
+
+@media screen and (min-width: 1125px) {
+  .land-section {
+    gap: 2rem;
+
+    padding: .5rem 0 .5rem 0;
+  }
+  
+  .land-text {
+    font-size: 20px;
+  }
+  .land-section a {
+    font-size: 22px;
+    padding: .9rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1354px) {
+  .land-text {
+    max-width: 50%;
   }
 }
