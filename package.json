@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Renan2805.github.io/WonTi",
   "name": "wonti",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +9,6 @@
     "@types/babel__generator": "^7.6.4",
     "@types/jest": "^27.4.1",
     "@types/node": "^16.11.26",
-    "gh-pages": "^3.2.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "^5.0.1",
@@ -19,8 +17,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
