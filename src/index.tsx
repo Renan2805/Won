@@ -11,7 +11,7 @@ const root = createRoot(container)
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/WonTI" element={<App />} />
       <Route path="*" element={<NotFoundPage />}>
       </Route>
     </Routes>
