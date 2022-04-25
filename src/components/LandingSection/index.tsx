@@ -7,7 +7,9 @@ const LandingSection = () => {
   return (
     <div className="land-section">
       <p className="land-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi culpa.
+        <span>COM ELAS É SEMPRE WON</span>
+        <br />
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi culpa.
       </p>
       <img 
         src={Coding} 

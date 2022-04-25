@@ -35,6 +35,13 @@
   color: black;
   line-height: 2;
   width: 80vw;
+	font-size: 18px;
+}
+
+.land-text span {
+	color: #407bff;
+	font-size: 28px;
+	font-weight: bold;
 }
 
 .land-illustration {
