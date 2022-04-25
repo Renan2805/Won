@@ -1,0 +1,42 @@
+.job-hunt {
+  height: 40vh;
+}
+
+.land-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  height: calc(100vh - 3.5rem);
+  padding: 1rem 0 1rem 0;
+  margin-top: 3.5rem;
+
+  background-color: white;
+}
+
+.land-section a {
+  padding: .5rem .8rem;
+
+  text-decoration: none;
+  color: white;
+  background-color: #395285;
+  border-radius: 8px;
+  transition: .4s;
+}
+
+.land-section a:hover {
+  background-color: #407bff;
+  -webkit-box-shadow: 0px 0px 50px 10px #407bff; 
+          box-shadow: 0px 0px 50px 10px #407bff;
+}
+
+.land-text {
+  color: black;
+  line-height: 2;
+  width: 80vw;
+}
+
+.land-illustration {
+  max-width: 80%;
+}

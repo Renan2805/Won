@@ -9,23 +9,23 @@ interface MenuItem {
 
 export const ITEMS:Array<MenuItem> = [
   {
-    title: 'Quem Somos',
+    title: 'INICIO',
     to: '#land-section',
-    icon: <IoIcons.IoMdHome size={19}/>
+    icon: <IoIcons.IoMdHome />
   },
   {
-    title: 'Quem Somos',
+    title: 'NOSSA EQUIPE',
     to: '#second-section',
-    icon: <IoIcons.IoIosAdd size={19}/>
+    icon: <IoIcons.IoMdPeople />
   },
   {
-    title: 'Quem Somos',
+    title: 'NOSSO PROJETO',
     to: '#third-section',
-    icon: <IoIcons.IoIosCart size={19}/>
+    icon: <IoIcons.IoMdConstruct />
   },
   {
-    title: 'Quem Somos',
+    title: 'CONTATO',
     to: '#fourth-section',
-    icon: <IoIcons.IoIosFingerPrint size={19}/>
+    icon: <IoIcons.IoMdAt />
   }
 ]

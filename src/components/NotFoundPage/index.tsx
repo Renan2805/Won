@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { IoMdArrowBack } from 'react-icons/io'
 import error404 from '../../assets/404.svg'
-import './NotFoundPage.css'
+import './index.css'
 
 const NotFoundPage = () => {
   return (

@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Glacier Indifference';
+    src: url('../../assets/fonts/glacial-indifference/GlacialIndifference-Regular.otf');
+}
+
+:root {
+    --nav-bar-height: 6rem;
+    --nav-bar-bg-color: white;
+
+    --color-main: #395285;
+}
+
+
+nav {
+    position: fixed;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    max-height: var(--nav-bar-height);
+    background-color: var(--nav-bar-bg-color);
+}
+
+.logo-img {
+    width: 10rem;
+}
+
+.hamburguer-menu {
+    z-index: 1;
+}
+
+.menu {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    top: calc(var(--nav-bar-height) - 10px);
+    right: -80vw;
+
+    width: 80vw;
+    height: calc(100vh - var(--nav-bar-height));
+
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(108, 108, 108, 0.515);
+    border-radius: 19px 0px 0px 19px;
+
+    transition: .4s;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Glacier Indifference', serif;
+    font-size: 20px;
+    line-height: 2;
+    width: 70%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a p {
+    width: 50%;
+}
+
+.menu a:hover {
+    background-color: var(--color-main);
+    color: white;
+}
+
+.active {
+    right: 0vw; 
+}

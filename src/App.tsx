@@ -1,26 +1,15 @@
 import React from 'react'
-import Hiring from './assets/hiring.svg'
-import NavBar from './components/NavBar/NavBar'
+import NavBar from './components/NavBar'
 import './App.css'
+import LandingSection from './components/LandingSection'
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <div className="land-section">
-        <p className="land-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi culpa.
-        </p>
-        <img src={Hiring} className="land-illustration" alt="Job Hunt illustration" />
-        <a href="#/join">Saiba Mais</a>
-      </div>
-      <div className="land-section" id="second-section">
-        <p className="land-text">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi culpa.
-        </p>
-        <img src={Hiring} className="land-illustration" alt="Job Hunt illustration" />
-        <a href="#/join">Saiba Mais</a>
-      </div>
+      
+      <LandingSection />
+
     </div>
   )
 }
