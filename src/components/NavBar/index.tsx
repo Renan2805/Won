@@ -1,7 +1,6 @@
 import React, { ReactElement, useState } from 'react'
 import Hamburger from 'hamburger-react'
 import './index.css'
-// import useWindowDimensions from '../../hooks/hooks'
 import { ITEMS } from './MenuItems'
 
 import Logo from '../../assets/logo.png'
@@ -21,8 +20,6 @@ const NavBar = () => {
   return (
     <>
       <nav>
-        {/* <div className="spacer"></div> */}
-      
         <img 
           className="logo-img"
           src={Logo} 
@@ -37,8 +34,10 @@ const NavBar = () => {
         />
 
       </nav>
-      <button 
+      <button
         className={`invisible-close-btn ${isOpen ? 'btn-active' : 'btn-unactive'}`} 
+        type={'button'}
+        title={'spooky'}
         onClick={() => setOpen(false)} 
       />
       <div className={isOpen ? 'active menu' : 'menu'}>
