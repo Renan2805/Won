@@ -4,14 +4,15 @@ import * as IoIcons from 'react-icons/io'
 interface MenuItem {
   title: string,
   to: string,
-  icon: ReactElement
+  icon: ReactElement,
+  class?: string
 }
 
 export const ITEMS:Array<MenuItem> = [
   {
     title: 'INICIO',
     to: '#land-section',
-    icon: <IoIcons.IoMdHome />
+    icon: <IoIcons.IoMdHome />,
   },
   {
     title: 'NOSSA EQUIPE',
@@ -26,6 +27,7 @@ export const ITEMS:Array<MenuItem> = [
   {
     title: 'CONTATO',
     to: '#fourth-section',
-    icon: <IoIcons.IoMdAt />
+    icon: <IoIcons.IoMdAt />,
+    class: 'contact'
   }
 ]

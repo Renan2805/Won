@@ -7,7 +7,7 @@
     --nav-bar-height: 5rem;
     --nav-bar-bg-color: white;
 
-    --color-main: #395285;
+    --color-main: #407bff;
 }
 
 
@@ -94,4 +94,27 @@ nav {
 
 .active {
     right: 0vw; 
+}
+
+@media screen and (min-width: 700px){
+    .nav-links {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    .nav-links li a {
+        text-decoration: none;
+        color: black;
+        padding: .3rem .6rem;
+    }
+
+    .contact {
+        background-color: var(--color-main);
+        border-radius: 5px;
+    }
+    .contact a {
+        color: white !important;
+    }
 }
