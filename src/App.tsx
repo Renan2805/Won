@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from './components/NavBar'
 import './App.css'
 import LandingSection from './components/LandingSection'
+import Second from './components/SecondSection'
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <NavBar />
       
       <LandingSection />
-
+      <Second />
     </div>
   )
 }

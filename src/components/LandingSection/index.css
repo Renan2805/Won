@@ -1,5 +1,5 @@
 .job-hunt {
-  height: 40vh;
+  height: 10vh;
 }
 
 .land-section {
@@ -7,10 +7,17 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
 
+<<<<<<< HEAD
   height: calc(100vh - 6rem);
   padding: 1rem 0 1rem 0;
   margin-top: 3.5rem;
+=======
+  height: 100vh;
+  padding-top: calc(var(--nav-bar-height) + 1rem);
+  padding-bottom: 1rem;
+>>>>>>> production
 
   background-color: white;
 }
@@ -20,7 +27,7 @@
 
   text-decoration: none;
   color: white;
-  background-color: #395285;
+  background-color: #407bff;
   border-radius: 8px;
   transition: .4s;
 }
@@ -35,15 +42,51 @@
   color: black;
   line-height: 2;
   width: 80vw;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .land-text span {
 	color: #407bff;
-	font-size: 28px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
 .land-illustration {
-  max-width: 80%;
+  max-height: 80%;
+}
+
+@media screen and (min-width: 700px) {
+  .land-section div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw
+  }
+  
+  .land-section {
+    justify-content: space-around;
+  }
+
+  .land-text {
+    max-width: 40vw;
+  }
+
+  .land-illustration {
+    max-width: 10rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .land-section {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+  
+  .land-illustration {
+    max-width: 40%;
+  }
+  .land-section a {
+    padding: 1rem 1.6rem;
+  }
 }

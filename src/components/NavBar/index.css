@@ -4,10 +4,10 @@
 }
 
 :root {
-    --nav-bar-height: 6rem;
+    --nav-bar-height: 5rem;
     --nav-bar-bg-color: white;
 
-    --color-main: #395285;
+    --color-main: #407bff;
 }
 
 
@@ -27,7 +27,26 @@ nav {
 }
 
 .hamburguer-menu {
-    z-index: 1;
+    z-index: 3;
+}
+
+.invisible-close-btn {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+
+    width: 100vw;
+    height: 100vh;
+    display: none;
+
+    background-color: transparent;
+    border: 0;
+}
+
+.btn-active {
+    display: block;
 }
 
 .menu {
@@ -75,4 +94,27 @@ nav {
 
 .active {
     right: 0vw; 
+}
+
+@media screen and (min-width: 700px){
+    .nav-links {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    .nav-links li a {
+        text-decoration: none;
+        color: black;
+        padding: .3rem .6rem;
+    }
+
+    .contact {
+        background-color: var(--color-main);
+        border-radius: 5px;
+    }
+    .contact a {
+        color: white !important;
+    }
 }

@@ -1,28 +1,27 @@
 import React, { ReactElement, useState } from 'react'
 import Hamburger from 'hamburger-react'
 import './index.css'
-// import useWindowDimensions from '../../hooks/hooks'
 import { ITEMS } from './MenuItems'
 
 import Logo from '../../assets/logo.png'
+import useWindowDimensions from '../../hooks/hooks'
 
 interface MenuItem {
   title: string,
   to: string,
-  icon: ReactElement
+  icon: ReactElement,
+  class?: string
 }
 
 const NavBar = () => {
 
-  // const window = useWindowDimensions()
+  const window = useWindowDimensions()
 
   const [isOpen, setOpen] = useState(false)
 
-  return (
+  if (window.width < 700) return (
     <>
       <nav>
-        {/* <div className="spacer"></div> */}
-      
         <img 
           className="logo-img"
           src={Logo} 
@@ -37,8 +36,10 @@ const NavBar = () => {
         />
 
       </nav>
-      <button 
+      <button
         className={`invisible-close-btn ${isOpen ? 'btn-active' : 'btn-unactive'}`} 
+        type={'button'}
+        title={'spooky'}
         onClick={() => setOpen(false)} 
       />
       <div className={isOpen ? 'active menu' : 'menu'}>
@@ -60,6 +61,24 @@ const NavBar = () => {
       </div>
       
     </>
+  ) 
+  else return (
+    <nav>
+      <img 
+        className="logo-img"
+        src={Logo} 
+        alt={'WonTI Logo'} 
+      />
+      <ul className="nav-links">
+        {
+          ITEMS.map((item:MenuItem, index) => (
+            <li key={index} className={item.class}>
+              <a href={item.to}>{item.title}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
   )
 }
 
