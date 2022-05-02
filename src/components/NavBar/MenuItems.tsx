@@ -16,7 +16,7 @@ export const ITEMS:Array<MenuItem> = [
   },
   {
     title: 'NOSSA EQUIPE',
-    to: '#second-section',
+    to: '#TituloQmSomos',
     icon: <IoIcons.IoMdPeople />
   },
   {
