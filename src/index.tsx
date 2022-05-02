@@ -13,10 +13,8 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="*" element={<NotFoundPage />}>
-      </Route>
-      <Route path="/login" element={<TelaLogin />}>
-      </Route>
+      <Route path="/login" element={<TelaLogin />}/>
+      <Route path="*" element={<NotFoundPage />} />
     </Routes>
   </BrowserRouter>
 )
