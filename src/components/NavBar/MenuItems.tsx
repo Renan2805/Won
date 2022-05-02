@@ -29,5 +29,15 @@ export const ITEMS:Array<MenuItem> = [
     to: '#fourth-section',
     icon: <IoIcons.IoMdAt />,
     class: 'contact'
+  },
+  {
+    title: 'Entrar',
+    to: '/login',
+    icon: <IoIcons.IoMdContact />,
+  },
+  {
+    title: 'Cadastrar',
+    to: '',
+    icon: <IoIcons.IoMdContacts />,
   }
 ]

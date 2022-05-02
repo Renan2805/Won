@@ -5,6 +5,7 @@ import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import NotFoundPage from './components/NotFoundPage'
+import TelaLogin from './components/Login/index'
 
 const container:HTMLElement = document.getElementById('root') as HTMLElement
 const root = createRoot(container)
@@ -13,6 +14,8 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="*" element={<NotFoundPage />}>
+      </Route>
+      <Route path="/login" element={<TelaLogin />}>
       </Route>
     </Routes>
   </BrowserRouter>

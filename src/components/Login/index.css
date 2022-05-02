@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif; 
+}
+
+.Principal {
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    margin:0 auto;
+}
+.BlocoUm {
+    height: auto;
+    padding: 7%;
+    padding-top: 2%;
+}
+.Formulario {
+    border: 1px solid rgb(207, 207, 207);
+    box-shadow:2px 3px 5px black;
+    opacity: 0.9;
+    border-radius: 13px;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 4.5%;
+    max-width: 700px;
+}
+h1 {
+    font-family:'Poppins';
+    margin-top: 30px;
+    font-size: 23px;
+}
+.inputs {
+    margin-top: 30px;
+    height: 35px;
+    width: 80%;
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid;
+    font-weight: bolder;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.inputs:focus {
+    border-radius: 4px;
+    margin-right: 1px;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none; 
+}
+.Botao {
+    margin-top: 30px;
+    width: 70%;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #407bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.Link {
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 9px;
+    margin-bottom: 4px;
+}
+#cpf {
+    margin-right: 10px;
+}
+.Botao:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.LoginExterno {
+    margin-top: 10;
+    margin-right: 2px;
+    width: 30%;
+    background: transparent;
+    border: transparent;
+}
+.LoginExterno {
+    cursor: pointer;
+}
+.FacaLogin {
+    margin-top: 20px;
+    font-size: 15px;
+}
+.olho {
+    background: transparent;
+    border: transparent;
+    font-size: 16px;
+    margin-right: -2px;
+    margin-top: 4px;
+}
+.olho:hover {
+    cursor: pointer;
+}
+a {
+    color: black;
+}
+@media screen and (min-width: 699px) {
+    .Principal {
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .BlocoUm {
+        align-items: center;
+        margin: 0 auto;
+    }
+    .Formulario{
+      align-items: center;
+      width: 700px;
+      margin-left: 20%;
+    }
+} 
