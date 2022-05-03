@@ -3,13 +3,6 @@
     src: url('../../assets/fonts/glacial-indifference/GlacialIndifference-Regular.otf');
 }
 
-:root {
-    --nav-bar-height: 5rem;
-    --nav-bar-bg-color: white;
-
-    --color-main: #407bff;
-}
-
 
 nav {
     position: fixed;
@@ -31,19 +24,17 @@ nav {
 }
 
 .invisible-close-btn {
-
     position: absolute;
     top: 0;
     left: 0;
     z-index: 0;
-
     width: 100vw;
     height: 100vh;
     display: none;
-
     background-color: transparent;
     border: 0;
 }
+
 
 .btn-active {
     display: block;

@@ -16,7 +16,7 @@ export const ITEMS:Array<MenuItem> = [
   },
   {
     title: 'NOSSA EQUIPE',
-    to: '#TituloQmSomos',
+    to: '#quem-somos',
     icon: <IoIcons.IoMdPeople />
   },
   {
@@ -30,14 +30,4 @@ export const ITEMS:Array<MenuItem> = [
     icon: <IoIcons.IoMdAt />,
     class: 'contact'
   },
-  {
-    title: 'Entrar',
-    to: '/login',
-    icon: <IoIcons.IoMdContact />,
-  },
-  {
-    title: 'Cadastrar',
-    to: '',
-    icon: <IoIcons.IoMdContacts />,
-  }
 ]

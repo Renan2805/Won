@@ -2,15 +2,14 @@ import React from 'react'
 import NavBar from './components/NavBar'
 import './App.css'
 import LandingSection from './components/LandingSection'
-import Second from './components/SecondSection'
+import QuemSomosSection from './components/QuemSomosSection'
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      
       <LandingSection />
-      <Second />
+      <QuemSomosSection />
     </div>
   )
 }

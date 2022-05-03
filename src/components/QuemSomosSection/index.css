@@ -1,0 +1,6 @@
+.quem-somos {
+    height: calc(100vh - var(--nav-bar-height));
+
+    padding: 1rem;
+
+}
