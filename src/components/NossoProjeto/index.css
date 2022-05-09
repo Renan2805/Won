@@ -9,41 +9,42 @@
 }
 .Agrupar-Spans {
     width: 100%;
-    height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
+    gap: 10px;
     margin-top: 4vh;
+    padding: 0 1rem;
 }
-.Span-Funcao {
-    width: 100%;
-    height: auto;
-    margin: 1vh;
+.card-projeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+    padding: 1rem .3rem;
     border: 1px solid black;
 }
+
+.Texto {
+    width: 80% !important;
+    height: fit-content;
+    margin: auto 0
+}
+
 .div-foto {
-    width: 100%;
-    height: 50%;
     text-align: center;
     justify-content:center ;
     display: flex;
 }
-.Texto-Funcao {
-    flex-direction: column;
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-}
-.Texto {
-    text-align: center;
-    margin: 1vh;
-}
 .Imagem {
-    margin: 1vh;
-    width: 80%;
-    height: 65%;
-    border-radius: 100%;
-    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+
+    background-size: contain;
+
+    border-radius: 100px
 }
 .div-Button {
     width: 100%;
@@ -68,24 +69,12 @@
     border: 1px solid black;
 }
 @media screen and (min-width: 300px) {
-    .Imagem {
-        max-width: 100%;
-        max-height: 100%;
-    }
-    .div-foto {
-        width: 100%;
-        height: 50%;
-        text-align: center;
-        justify-content:center ;
-        display: flex;
-    }
     .Agrupar-Spans {
-        width: 100%;
-        height: 75%;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin-top: 4vh;
+        flex-direction: row;
+    }
+
+    .Texto {
+        margin: 0;
     }
 }
 @media screen and (min-width: 1024px) {
