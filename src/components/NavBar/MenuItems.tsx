@@ -16,12 +16,12 @@ export const ITEMS:Array<MenuItem> = [
   },
   {
     title: 'NOSSA EQUIPE',
-    to: '#quem-somos',
+    to: '#Principal-NossaEquipe',
     icon: <IoIcons.IoMdPeople />
   },
   {
-    title: 'NOSSO PROJETO',
-    to: '#third-section',
+    title: 'Quem Somos',
+    to: '#quem-somos',
     icon: <IoIcons.IoMdConstruct />
   },
   {

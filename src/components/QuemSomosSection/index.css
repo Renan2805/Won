@@ -1,6 +1,27 @@
 .quem-somos {
     height: calc(100vh - var(--nav-bar-height));
-
+    margin-top: 100px;
     padding: 1rem;
-
+}
+/* #Botao-flutuante {
+    height: 40px;
+    width: 40px;
+    border-radius: 80px;
+    float: right;
+    position: absolute;
+    margin-top: 50%;
+    border: transparent;
+    background: transparent;
+} */
+@media screen and (min-width: 300px) {
+    .quem-somos {
+        margin-top: -3rem;
+        height: calc(70vh - var(--nav-bar-height));
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .quem-somos {
+        margin-top: 10rem;
+    }
 }

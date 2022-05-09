@@ -6,6 +6,7 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 import NotFoundPage from './components/NotFoundPage'
 import TelaLogin from './components/Login/index'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 const container:HTMLElement = document.getElementById('root') as HTMLElement
 const root = createRoot(container)

@@ -1,5 +1,6 @@
 import React from 'react'
 import './index.css'
+import { IoIosArrowRoundUp } from 'react-icons/io'
 
 const QuemSomosSection = () => {
   return (
@@ -8,6 +9,10 @@ const QuemSomosSection = () => {
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolorem deleniti dolor ea natus, earum officiis hic iusto illo minima atque molestiae explicabo architecto, amet fugiat quaerat. Sequi, tempore? Iusto!
       </p>
+      {/* <button id='Botao-flutuante'>
+        <IoIosArrowRoundUp size={40} color={'#6695ff'}/>
+      </button> */}
+      
     </div>
   )
 }

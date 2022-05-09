@@ -50,7 +50,7 @@
   max-height: 80%;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 400px) {
   .land-section div{
     display: flex;
     flex-direction: row;
@@ -62,13 +62,15 @@
   .land-section {
     justify-content: space-around;
   }
-
+  .land-section a{
+    margin-top: -5rem;
+  }
   .land-text {
     max-width: 40vw;
   }
 
   .land-illustration {
-    max-width: 10rem;
+    max-width: 18rem;
   }
 }
 
@@ -82,6 +84,6 @@
     max-width: 40%;
   }
   .land-section a {
-    padding: 1rem 1.6rem;
+    margin-top: 3rem;
   }
 }
