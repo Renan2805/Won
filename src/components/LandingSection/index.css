@@ -16,6 +16,10 @@
   background-color: white;
 }
 
+.land-section::-webkit-scrollbar {
+  
+}
+
 .land-section a {
   padding: .5rem .8rem;
 

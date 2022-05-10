@@ -3,37 +3,41 @@ import './index.css'
 import { IoIosArrowRoundForward, IoIosArrowRoundBack  } from 'react-icons/io'
 import { Carousel } from 'react-responsive-carousel'
 import { FaGithub, FaLinkedin, FaGoogle } from 'react-icons/fa'
+import Team from '../../assets/team.svg'
 import MEMBROS from './membros'
 
 const NossaEquipe = () => {
   return (
-    <div className='Principal-NossaEquipe' id='Principal-NossaEquipe'>
-      <div className='Titulo-Equipe'>
-        <p className='texto'>Nossa Equipe</p>
-      </div>
+    <div id='Principal-NossaEquipe'>
+      <div className='Principal-NossaEquipe' >
+        <div className='Titulo-Equipe'>
+          <p className='texto'>Nossa Equipe</p>
+        </div>
 
-      {/* Carrosel de Membros */}
-      <Carousel 
-        autoPlay
-        showStatus={false}
-        infiniteLoop
-        showIndicators={false}
-        showArrows={true}
-        transitionTime={2000}
-      >
-        {
-          MEMBROS.map((m:membro, index:number) => (
-            <CarrousselItem
-              nome={m.nome}
-              funcao={m.funcao}
-              descricao={m.descricao}
-              foto={m.foto}
-              links={m.links}
-              key={index}
-            />
-          ))
-        }  
-      </Carousel>
+        {/* Carrosel de Membros */}
+        <Carousel 
+          autoPlay
+          showStatus={false}
+          infiniteLoop
+          showIndicators={false}
+          showArrows={true}
+          transitionTime={2000}
+        >
+          {
+            MEMBROS.map((m:membro, index:number) => (
+              <CarrousselItem
+                nome={m.nome}
+                funcao={m.funcao}
+                descricao={m.descricao}
+                foto={m.foto}
+                links={m.links}
+                key={index}
+              />
+            ))
+          }  
+        </Carousel>
+        <img src={Team} alt="Ilustração 'Time'" className="team-illustration"/>
+      </div>
     </div>
     
   )  

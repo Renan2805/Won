@@ -1,5 +1,5 @@
 .Principal-NossoProjeto {
-    height: calc(100vh - var(--nav-bar-height));;
+    height: calc(100vh - var(--nav-bar-height));
 }
 .Titulo {
     width: 100%;
@@ -9,22 +9,26 @@
 }
 .Agrupar-Spans {
     width: 100%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
     margin-top: 4vh;
     padding: 0 1rem;
+    border-radius: 19px;
 }
 .card-projeto {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    gap: 3rem;
     text-align: center;
-    height: 60vh;
+    height: 66vh;
     padding: 1rem .3rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border-radius: 19px;
 }
 
 .Texto {
@@ -48,46 +52,57 @@
 }
 .div-Button {
     width: 100%;
-    height: 5em;
+    height: 40px;
     display: flex;
     justify-content: center;
 }
 .Button {
     width: 60%;
-    height: 50%;
+    height: 40px;
     border: transparent;
-    margin-top: 2vh;
     color: white;
-    background-color: rgb(250, 23, 69);
+    background-color: var(--color-main);
     padding: 2px;
     border-radius: 20px;
     cursor: pointer;
 }
 .Button:hover {
     background-color: white;
-    color: rgb(250, 23, 69);
-    border: 1px solid black;
+    color: var(--color-main);
+    border: 2px solid var(--color-main);
 }
+
+.Agrupar-Spans .slider-wrapper {
+    max-width: 40rem;
+}
+
+
 @media screen and (min-width: 300px) {
     .Agrupar-Spans {
         flex-direction: row;
-    }
 
+    }
     .Texto {
         margin: 0;
+    }
+
+    .div-foto {
+        width: 200px;
+        height: 200px
+    }
+
+    .Imagem {
+        width: 100%;
+        height: 100%;
     }
 }
 @media screen and (min-width: 1024px) {
     .Imagem {
-        max-width: 60%;
-        max-height: 100%;
+        border-radius: 100%;
     }
     .div-foto {
-        width: 100%;
-        height: 65%;
-        text-align: center;
-        justify-content:center ;
-        display: flex;
+        height: 20rem;
+        width: 20rem;
     }
     .Agrupar-Spans {
         width: 100%;

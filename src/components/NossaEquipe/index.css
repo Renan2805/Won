@@ -14,9 +14,13 @@
     font-size: 22px;
 }
 
+.team-illustration {
+    width: 40vw
+}
+
 /*Carrosel cards*/
-.carousel-root {
-    height: calc(100vh - var(--nav-bar-height)) !important;
+.Principal-NossaEquipe .carousel-root {
+    height: fit-content
 }
 
 .Principal-NossaEquipe {
@@ -29,7 +33,7 @@
     width: 100%;
     margin-bottom: 4vh;
     color: white;
-    background-image: linear-gradient(var(--color-main), rgb(0, 4, 255));
+    background-image: linear-gradient(var(--color-main), #2E38E8) ;
 }
 .Membros {
     height: auto;
@@ -39,14 +43,14 @@
     padding: 0 1rem;
 }
 .Fotos {
-    width: 28%;
-    height: auto;
+    width: 200px;
+    height: fit-content;
     margin-right: 2vh;
 }
 .Foto-vitor {
     border-radius: 100%;
-    width: 200px;
-    height: 200px;
+    width: 200px !important;
+    height: 200px !important;
     margin-top: 1vh;
 }
 h3 {
@@ -74,7 +78,7 @@ h3 {
     color: rgb(0, 179, 255);
     border: 1px solid rgb(0, 179, 255);
     border-radius: 15px;
-    padding: 6px;
+    padding: 2px 20px;
 }
 .Titulo-Equipe{
     text-align: left;
@@ -121,10 +125,20 @@ h3 {
     border: transparent;
     cursor: pointer;
 }
+@media screen and (max-width: 380px) {
+    .Foto-vitor {
+        width: 50px;
+        height: 50px;
+    }
+}
+
 @media screen and (min-width: 700px) {
     .Foto-vitor {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
+    }
+    .Fotos {
+        height: 200px;
     }
     .Principal-NossaEquipe {
         margin-top: -10vh;
