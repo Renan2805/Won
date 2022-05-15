@@ -5,6 +5,8 @@ import LandingSection from './components/LandingSection'
 import QuemSomosSection from './components/QuemSomosSection'
 import NossaEquipe from './components/NossaEquipe'
 import NossoProjeto from './components/NossoProjeto'
+import Contato from './components/Contato'
+import Rodape from './components/rodape'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       {/* <QuemSomosSection /> */}
       <NossaEquipe/>
       <NossoProjeto/>
+      <Contato/>
+      <Rodape/>
     </div>
   )
 }

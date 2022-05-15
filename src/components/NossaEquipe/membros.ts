@@ -1,9 +1,9 @@
 import ftVitor from '../../assets/vitor.jpg'
-import ftSte from '../../assets/stephany.jpg'
-import ftEli from '../../assets/eliane.jpg'
-import ftRena from '../../assets/renan.jpg'
+import ftStephany from '../../assets/stephany.jpg'
+import ftEliane from '../../assets/eliane.jpg'
+import ftRenan from '../../assets/renan.jpg'
 import ftLucas from '../../assets/valim.jpg'
-import ftRaquel from '../../assets/valim.jpg'
+import ftRaquel from '../../assets/raquel.jpg'
 import ftBeatriz from '../../assets/valim.jpg'
 import ftGabriel from '../../assets/valim.jpg'
 
@@ -31,7 +31,7 @@ const MEMBROS:Array<membro> = [
     nome: 'Stephany Julia de Oliveira Justino',
     funcao: 'Gerente',
     descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, culpa dicta. Accusantium sint facere quia voluptates culpa totam eum repellat et! Culpa adipisci voluptatibus accusamus sequi dolorem reprehenderit magnam neque.',
-    foto: ftSte,
+    foto: ftStephany,
     links: [
       '',
       '',
@@ -41,7 +41,7 @@ const MEMBROS:Array<membro> = [
   {
     nome: 'Eliane dos Reis Cabral da Rocha',
     funcao: 'Desenvolvedora',
-    foto: ftEli,
+    foto: ftEliane,
     descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, culpa dicta. Accusantium sint facere quia voluptates culpa totam eum repellat et! Culpa adipisci voluptatibus accusamus sequi dolorem reprehenderit magnam neque.',
     links: [
       '',
@@ -53,7 +53,7 @@ const MEMBROS:Array<membro> = [
     nome: 'Renan Silva dos Anjos',
     funcao: 'Desenvolvedor',
     descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, culpa dicta. Accusantium sint facere quia voluptates culpa totam eum repellat et! Culpa adipisci voluptatibus accusamus sequi dolorem reprehenderit magnam neque.',
-    foto: ftRena,
+    foto: ftRenan,
     links: [
       '',
       '',

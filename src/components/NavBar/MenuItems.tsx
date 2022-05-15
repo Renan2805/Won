@@ -20,13 +20,13 @@ export const ITEMS:Array<MenuItem> = [
     icon: <IoIcons.IoMdPeople />
   },
   {
-    title: 'Quem Somos',
-    to: '#quem-somos',
+    title: 'NOSSO PROJETO',
+    to: '#Principal-NossoProjeto',
     icon: <IoIcons.IoMdConstruct />
   },
   {
     title: 'CONTATO',
-    to: '#fourth-section',
+    to: '#Principal-Contato',
     icon: <IoIcons.IoMdAt />,
     class: 'contact'
   },

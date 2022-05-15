@@ -17,7 +17,7 @@
 }
 
 .land-section::-webkit-scrollbar {
-  
+ display: none; 
 }
 
 .land-section a {

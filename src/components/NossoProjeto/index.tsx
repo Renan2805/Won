@@ -1,11 +1,12 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import './index.css'
-import vitor from '../../../src/assets/vitor.jpg'
-
+import Card2 from '../../assets/card2.png'
+import Card3 from '../../assets/card3.png'
+import Logo from '../../assets/LogoWonti.png'
 const NossoProjeto = () => {
   return (
-    <div className='Principal-NossoProjeto'>
+    <div className='Principal-NossoProjeto' id='Principal-NossoProjeto'>
       <div className='Titulo'>
         <h1>Nosso Projeto</h1>
       </div>
@@ -16,14 +17,14 @@ const NossoProjeto = () => {
           interval={5000}
           showStatus={false}
         >
-          <CardProjeto imagem={vitor} texto={'vai tomar no cu vai tomar no cu vai tomar no cu'}/>
-          <CardProjeto imagem={vitor} texto={'vai tomar no cu vai tomar no cu vai tomar no cu'}/>
-          <CardProjeto imagem={vitor} texto={'vai tomar no cu vai tomar no cu vai tomar no cu'}/>
+          <CardProjeto imagem={Logo}  texto={'O nome é WonTI, junção de Woman e T.I, a ideia desse nome é inclusão da mulher na área de Tecnologia'}/>
+          <CardProjeto imagem={Card2} texto={'O objetivo do projeto é ajudar mulheres para encontrar vagas de T.I no mercado de trabalho'}/>
+          <CardProjeto imagem={Card3} texto={'+1 Queremos auxiliar os RHs, que precisam de algum conhecimento área para contratar'}/>
         </Carousel>
       </div>
       <div className='div-Button'>
         <button className='Button'>
-          <h4>Cadastre-se</h4>
+          <h4>Saiba mais</h4>
         </button>
       </div>
     </div>

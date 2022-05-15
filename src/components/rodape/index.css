@@ -1,0 +1,28 @@
+.Principal-Rodape {
+    height: 30vh;
+    width: 100%;
+    padding: 3vh;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.direitos {
+    font-size: 2vh;
+}
+@media screen and (min-width: 300px) {
+    .Principal-Rodape {
+        margin-top: 18vh;
+    }
+}
+@media screen and (min-width: 700px) {
+    .Principal-Rodape {
+        margin-top: 8vh;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .Principal-Rodape {
+        margin-top: 15vh;
+    }
+}

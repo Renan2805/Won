@@ -30,11 +30,13 @@
     /* border: 1px solid black; */
     border-radius: 19px;
 }
+.carousel .control-dots .dot {
+    display: none !important;
+}
 
 .Texto {
-    width: 80% !important;
-    height: fit-content;
-    margin: auto 0
+    width: 70% !important;
+    margin: auto 0;
 }
 
 .div-foto {
@@ -45,10 +47,7 @@
 .Imagem {
     width: 200px;
     height: 200px;
-
-    background-size: contain;
-
-    border-radius: 100px
+    background: no-repeat center; 
 }
 .div-Button {
     width: 100%;
@@ -80,29 +79,42 @@
 @media screen and (min-width: 300px) {
     .Agrupar-Spans {
         flex-direction: row;
-
     }
-    .Texto {
-        margin: 0;
-    }
-
     .div-foto {
-        width: 200px;
-        height: 200px
+        width: 15rem;
+        height: 12rem
     }
-
     .Imagem {
         width: 100%;
         height: 100%;
     }
+    .card-projeto {
+        height: 50vh;
+    }
 }
-@media screen and (min-width: 1024px) {
-    .Imagem {
-        border-radius: 100%;
+@media screen and (min-width: 700px) {
+    .Agrupar-Spans {
+        flex-direction: row;
     }
     .div-foto {
-        height: 20rem;
-        width: 20rem;
+        height: 16rem;
+        width: 21rem;
+    }
+    .Imagem {
+        width: 100%;
+        height: 100%;
+    }
+    .card-projeto {
+        height: 66vh;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .div-foto {
+        height: 16rem;
+        width: 21rem;
+    }
+    .Texto {
+        margin-bottom: 5vh;
     }
     .Agrupar-Spans {
         width: 100%;
@@ -113,7 +125,10 @@
         margin-top: 4vh;
     }
     .Button {
-        margin-top: 5vh;
+        margin-top: 7vh;
         width: 30%;
+    }
+    .div-Button {
+        margin-top: 3vh;
     }
 }
