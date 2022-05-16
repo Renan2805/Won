@@ -1,5 +1,5 @@
 import React from 'react'
-import Coding from '../../assets/coding.svg'
+import Coding from '../../assets/teamPrincipal.svg'
 import './index.css'
 
 const LandingSection = () => {

@@ -17,6 +17,7 @@
     margin-top: 4vh;
     padding: 0 1rem;
     border-radius: 19px;
+
 }
 .card-projeto {
     display: flex;
@@ -36,7 +37,6 @@
 
 .Texto {
     width: 70% !important;
-    margin: auto 0;
 }
 
 .div-foto {
@@ -60,7 +60,7 @@
     height: 40px;
     border: transparent;
     color: white;
-    background-color: var(--color-main);
+    background-color: #ff036c;
     padding: 2px;
     border-radius: 20px;
     cursor: pointer;
@@ -91,14 +91,17 @@
     .card-projeto {
         height: 50vh;
     }
+    .Principal-NossoProjeto {
+        margin-top: 10vh;
+    }
 }
 @media screen and (min-width: 700px) {
     .Agrupar-Spans {
         flex-direction: row;
     }
     .div-foto {
-        height: 16rem;
-        width: 21rem;
+        height: 15rem;
+        width: 20rem;
     }
     .Imagem {
         width: 100%;
@@ -110,11 +113,12 @@
 }
 @media screen and (min-width: 1024px) {
     .div-foto {
-        height: 16rem;
-        width: 21rem;
+        height: 17rem;
+        width: 17rem;
+        background-size: contain;
     }
     .Texto {
-        margin-bottom: 5vh;
+        margin-top: 10vh;
     }
     .Agrupar-Spans {
         width: 100%;

@@ -14,7 +14,7 @@ const NossoProjeto = () => {
         <Carousel 
           autoPlay
           infiniteLoop
-          interval={5000}
+          interval={4000}
           showStatus={false}
         >
           <CardProjeto imagem={Logo}  texto={'O nome é WonTI, junção de Woman e T.I, a ideia desse nome é inclusão da mulher na área de Tecnologia'}/>

@@ -32,8 +32,8 @@
     padding: 2vh;
     width: 100%;
     margin-bottom: 4vh;
-    color: white;
-    background-image: linear-gradient(var(--color-main), #2E38E8) ;
+    color: black;
+   
 }
 .Membros {
     height: auto;
@@ -124,10 +124,13 @@ h3 {
     border: transparent;
     cursor: pointer;
 }
-@media screen and (max-width: 380px) {
+@media screen and (min-width: 380px) {
     .Foto-vitor {
         width: 50px;
         height: 50px;
+    }
+    .team-illustration {
+        margin-top: 10vh;
     }
 }
 
@@ -162,7 +165,7 @@ h3 {
         margin-top: 5vh;
     }
     .team-illustration {
-        width: 90vh;
+        width: 70vh;
         margin-top: 5vh;
         margin-bottom: 8vh;
     }

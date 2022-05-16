@@ -3,7 +3,7 @@ import './index.css'
 import { IoIosArrowRoundForward, IoIosArrowRoundBack  } from 'react-icons/io'
 import { Carousel } from 'react-responsive-carousel'
 import { FaGithub, FaLinkedin, FaGoogle } from 'react-icons/fa'
-import Team from '../../assets/team.svg'
+import Team from '../../assets/teamAtualizado.svg'
 import MEMBROS from './membros'
 
 const NossaEquipe = () => {

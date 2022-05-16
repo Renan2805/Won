@@ -17,7 +17,7 @@ const Contato = () => {
           <h4 className='Contato-Tipo'>Assunto</h4>
           <input type="text" className='Assunto' placeholder='Assunto'/>
           <br />
-          <h4 className='Contato-Tipo'>Menssagem</h4>
+          <h4 className='Contato-Tipo'>Mensagem</h4>
           <textarea className='Text-Box' placeholder='Escreva aqui'></textarea>
           <button className='button-form'>Enviar</button>
         </form>
