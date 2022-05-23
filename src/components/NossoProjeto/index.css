@@ -36,7 +36,7 @@
 }
 
 .Texto {
-    width: 70% !important;
+    width: 50% !important;
 }
 
 .div-foto {
@@ -81,7 +81,7 @@
         flex-direction: row;
     }
     .div-foto {
-        width: 15rem;
+        width: 13rem;
         height: 12rem
     }
     .Imagem {
@@ -93,6 +93,10 @@
     }
     .Principal-NossoProjeto {
         margin-top: 10vh;
+    }
+    .Texto {
+        text-align: center;
+        font-size: 20px;
     }
 }
 @media screen and (min-width: 700px) {
@@ -113,12 +117,14 @@
 }
 @media screen and (min-width: 1024px) {
     .div-foto {
-        height: 17rem;
-        width: 17rem;
+        height: 16rem;
+        width: 16rem;
         background-size: contain;
     }
     .Texto {
         margin-top: 10vh;
+        font-size: 22px;
+        
     }
     .Agrupar-Spans {
         width: 100%;
@@ -129,7 +135,7 @@
         margin-top: 4vh;
     }
     .Button {
-        margin-top: 7vh;
+        margin-top: 5vh;
         width: 30%;
     }
     .div-Button {
