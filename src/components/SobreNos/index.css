@@ -1,0 +1,97 @@
+.div-SobreNos {
+    height: calc(100vh - var(--nav-bar-height));
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin:0 auto;
+    margin-bottom: 10rem;
+    margin-top: 7rem;
+    width: 100%;
+}
+.Span-SobreNos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.spans-SobreNos-conteudo {
+    margin: 1rem;
+    border-radius: 8px;
+    border: 1px solid black;
+    -webkit-box-shadow: -3px 4px 15px -4px #000000; 
+    box-shadow: -3px 4px 15px -4px #000000;
+    height: 95%;
+    width: 30%;
+    padding: 1rem;
+}
+#prg {
+    margin: 2px;
+}
+.spans-SobreNos-conteudo:hover {
+    cursor: pointer;
+    border: 2px solid black;
+    -webkit-box-shadow: 0px 0px 0px 0px #000000; 
+    box-shadow: 0px 0px 0px 0px #000000;
+}
+.icon-SobreNos {
+    margin-top: 2rem;
+}
+#missao {
+    color: blue;
+}
+#visao {
+    color: purple;
+}
+#valor {
+    color: magenta;
+}
+@media screen and (min-width: 300px) {
+    .Span-SobreNos {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 4rem;
+    }
+    .spans-SobreNos-conteudo {
+        width: 100%;
+        
+        margin:2rem 0 0 0 ;
+    }
+    .div-SobreNos {
+        height: calc(150vh - var(--nav-bar-height));
+        margin-bottom: 13rem;
+    }
+}
+@media screen and (min-width: 700px) {
+    .Span-SobreNos {
+        flex-direction: column;
+        width: 90%;
+    }
+    .spans-SobreNos-conteudo {
+        margin: 2rem;
+        margin-top: 0rem;
+    }
+    .div-SobreNos {
+        margin-bottom: 10rem;
+        height: calc(150vh - var(--nav-bar-height));
+    }
+}
+@media screen and (min-width: 1000px) {
+    .Span-SobreNos {
+        width: 100%;
+        flex-direction: row;
+    }
+    .spans-SobreNos-conteudo {
+        margin: 2rem;
+        margin-top: 0rem;
+    }
+    .div-SobreNos {
+        margin-bottom: 10rem;
+        height: calc(100vh - var(--nav-bar-height));
+    }
+}

@@ -1,0 +1,113 @@
+.Principal-NossoProjeto {
+    height: calc(100vh - var(--nav-bar-height));
+    width: 100%;
+}
+.Titulo {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.Agrupar-Spans {
+    margin: 0 auto;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    height: 100%;
+}
+.divs-conteudos {
+    margin: 1rem;
+    width: 25%;
+    height: 90%;
+    border: 5px solid rgba(250, 60, 91, 0.863);
+    border-radius: 7px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    justify-items: center;
+}
+.div-foto2 {
+    height: 40%;
+    width: 100%;
+}
+.foto-logo {
+    width: 40%;
+    height: 60%;
+    margin-top: 3rem;
+}
+#logo-wonti {
+    width: 55%;
+    height:40%;
+}
+#lupa {
+    width: 42%;
+    height:63%;
+}
+.titulo-wonti {
+    color: rgba(250, 60, 91, 0.863);
+}
+.div-descricao {
+    width: 100%;
+    height: 50%;
+    padding: 1rem;
+    text-align: center;
+}
+.paragrafo {
+    font-size: 19px;
+    margin: 2px;
+}
+@media screen and (min-width: 300px) { 
+    .Agrupar-Spans {
+        flex-direction: column;
+        margin-top: 2rem;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .Principal-NossoProjeto {
+        height: calc(160vh - var(--nav-bar-height)); 
+        text-align: center;
+        padding: 2rem 0 0 0;
+    }
+    .divs-conteudos {
+        width: 90%;
+        height: 90%;
+        margin-top: 0rem;
+        text-align: center;
+    }
+    .div-descricao {
+
+    }
+    .Titulo {
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (min-width: 700px) { 
+    .Agrupar-Spans {
+        width: 80%;
+        flex-direction: column;
+    }
+    .Principal-NossoProjeto {
+        height: calc(170vh - var(--nav-bar-height)); 
+    }
+    .divs-conteudos {
+        height: 75%;
+        padding: 1rem;
+    }
+}
+@media screen and (min-width: 1000px) { 
+    .Agrupar-Spans {
+        width: 80%;
+        flex-direction: row;
+    }
+    .Principal-NossoProjeto {
+        height: calc(100vh - var(--nav-bar-height)); 
+    }
+    .divs-conteudos {
+        height: 90%;
+        padding: 0;
+    }
+}

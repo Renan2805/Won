@@ -1,0 +1,39 @@
+.Principal-video {
+    height: calc(120vh - var(--nav-bar-height));
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: url('../../assets//FundoVideo.png');
+    flex-direction: column;
+}
+.div-video {
+    width: 60%;
+    height: 60%;
+    padding: 1rem;
+}
+.div-iconsVideo {
+    margin-top: 4rem;
+    padding: 0;
+}
+.button-video {
+    background-color: transparent;
+    border: transparent;
+    margin: 0 2rem 0 0;
+    cursor: pointer;
+}
+@media screen and (min-width: 300px) { 
+    .div-video {
+        height: 30%;
+        width: 90%;
+        padding: 0;
+    }
+}
+@media screen and (min-width: 1000px) { 
+    .div-video {
+        height: 60%;
+        width: 60%;
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,176 @@
+.Principal-Rodape {
+    height: calc(100vh - var(--nav-bar-height));
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+#titulo-app-rodape {
+    color: wheat;
+    margin-top: 3rem;
+}
+#descricao-app-rodape {
+    color: white;
+}
+#button-rodape {
+    color: white;
+    background-color: rgb(240, 92, 116);
+    padding: 5px;
+    border: transparent;
+    border-radius: 20px;
+    width: 35%;
+    font-size: 14px;
+    height: 2rem;
+    margin-top: 3rem;
+}
+#button-rodape:hover {
+    background-color: white;
+    color: rgb(240, 92, 116);
+    cursor: pointer;
+}
+.Span-Rodape {
+    padding: 3rem;
+    width: 100%;
+    height: 80%;
+    display: flex
+}
+.foto-rodape {
+    width: 60%;
+    height: 100%;
+}
+.foto-celular-rodape {
+    max-height: 100%;
+}
+.Descricao-Rodape {
+    text-align: left;
+    padding: 1rem;
+}
+.Direitos-Rodape {
+    width: 100%;
+    height: 20%;
+    border-top: 1px solid white;
+    display: flex;
+}
+.icons-Rodape {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+.icons-Rodape button {
+    height: 30%;
+    margin: 1rem;
+    width: 7%;
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+.Copy-rodape {
+    text-align: left;
+    padding: 3rem;
+    height: 100%;
+    width: 60%;
+}
+.Copy-rodape p {
+    color: white;
+    font-size: 15px;
+}
+@media screen and (min-width: 300px) {
+    .Principal-Rodape {
+        margin-top: 5vh;
+    }
+    .Span-Rodape {
+        flex-direction: column;
+        height: 70%;
+    }
+    .foto-rodape {
+        display: none;
+    }
+    #button-rodape {
+        width: 60%;
+    } 
+    .Direitos-Rodape {
+        flex-direction: column;
+    }
+    .icons-Rodape {
+        width: 100%;
+        background-color: transparent;
+        border: transparent;
+    }
+    .Copy-rodape {
+        width: 100%;
+    }
+    .icons-Rodape button {
+        background-color: transparent;
+        border: transparent;
+    }
+}
+@media screen and (min-width: 700px) {
+    .Principal-Rodape {
+        margin-top: 8vh;
+        height: calc(80vh - var(--nav-bar-height));
+    }
+    .Span-Rodape {
+        flex-direction: column;
+        height: 70%;
+    }
+    .foto-rodape {
+        display: none;
+    }
+    #button-rodape {
+        width: 50%;
+    } 
+    .Direitos-Rodape {
+        flex-direction: column;
+    }
+    .icons-Rodape {
+        width: 100%;
+        background-color: transparent;
+        border: transparent;
+    }
+    .Copy-rodape {
+        width: 100%;
+    }
+    .Copy-rodape p {
+        font-size: 20px;
+    }
+    .Descricao-Rodape {
+        width: 90%;
+    }
+    .icons-Rodape button {
+        background-color: transparent;
+        border: transparent;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .Principal-Rodape {
+        margin-top: 20vh;
+    }
+    .Span-Rodape {
+        flex-direction: row;
+        height: 80%;
+    }
+    .foto-rodape {
+        display: flex;
+    }
+    #button-rodape {
+        width: 30%;
+    }
+    .Direitos-Rodape {
+        flex-direction: row;
+    }
+    .icons-Rodape {
+        width: 40%;
+        background-color: transparent;
+        border: transparent;
+    }    
+    .Copy-rodape {
+        width: 60%;
+    }
+    .Copy-rodape p { 
+        font-size: 15px;
+    }
+    .Descricao-Rodape {
+        width: 100%;
+    }
+}

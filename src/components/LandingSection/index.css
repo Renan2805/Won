@@ -1,0 +1,139 @@
+.job-hunt {
+  height: 10vh;
+}
+.land-section {
+  background: url('../../assets/fundoPixelado.png') center no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  padding-top: calc(var(--nav-bar-height) + 1rem);
+  padding-bottom: 1rem;
+  background-color: white;
+}
+
+.land-section::-webkit-scrollbar {
+ display: none; 
+}
+
+.land-section .button-projeto {
+  padding: .5rem .8rem;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  transition: .4s;
+  width: 50%;
+}
+
+.land-section button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 2px 0.5px black; 
+          box-shadow: 0px 0px 2px 0.5px black;
+}
+.land-text {
+  color: black;
+  line-height: 1.2;
+  width: 80vw;
+  text-align: left;
+	font-size: 2rem;
+}
+.text-one {
+  font-size: 35px;
+}
+.second-text {
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.land-text span {
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.land-illustration {
+  max-height: 80%;
+}
+
+@media screen and (min-width: 300px) {
+  .land-section div{
+    display: flex;
+    margin-top: -10rem;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+  .land-section {
+    background: url('../../assets/fundoPixelado.png') center no-repeat;
+    justify-content: space-around;
+    background-position-x: 55%;
+    background-position-y: 0%;
+  }
+  .land-section a{
+    margin-top: 0rem;
+  }
+  .land-illustration {
+    max-width: 18rem;
+    display: none;
+  }
+}
+@media screen and (min-width: 700px) {
+  .land-section div{
+    display: flex;
+    margin-top: -10rem;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+  .text-one {
+    width: 85%;
+  }
+  .second-text{
+    width: 75%;
+  }
+  .land-section {
+    background: url('../../assets/fundoPixelado.png') center no-repeat;
+    justify-content: space-around;
+    background-position-x: 55%;
+    background-position-y: 0%;
+  }
+  .land-section a{
+    margin-top: 0rem;
+  }
+  .land-illustration {
+    max-width: 18rem;
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .land-section {
+    width: 100%;
+    display: flex;
+  }
+  .land-text {
+    margin-top: 3rem;
+  }
+  .land-section div{ 
+    display: inline-flex;
+    flex-direction: row;
+    padding: 5rem;
+    width: 100%;
+  }
+  .land-illustration {
+    max-width: 45%;
+    margin-top: 2rem;
+    display: inline;
+  }
+  .land-section {
+    background: url('../../assets/fundoPixelado.png') center no-repeat;
+  }
+  .land-section a {
+    margin-top: 3rem;
+  }
+}

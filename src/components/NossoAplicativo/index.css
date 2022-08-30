@@ -1,0 +1,131 @@
+.Principal-NossoAplicativo {
+    height: calc(100vh - var(--nav-bar-height));
+    width: 100%;
+    margin-top: 10rem;
+}
+.Span-NossoAplicativo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding-left:  2rem;
+}
+.Nosso-Aplicativo-texto {
+    width: 50%;
+    height: 100%;
+    padding: 3rem;
+}
+.Nosso-Aplicativo-texto h3 {
+    color: rgb(240, 92, 116);
+    font-size: 23px;
+}
+.Nosso-Aplicativo-texto h1 {
+    font-size: 32px;
+}
+.Imagens-Celular {
+    width: 50%;
+    height: 100%;
+}
+.prg-span {
+    width: 40%;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 5%;
+}
+.txt-aplicativo {
+    font-size: 13px;
+    margin-top: 1rem;
+}
+.textos-span {
+    display: flex;
+}
+#button-obter {
+    margin-top: 2rem;
+    color: white;
+    display: block;
+    background-color: rgb(240, 92, 116);
+    padding: 3px;
+    width: 30%;
+    border-radius: 20px;
+    height: 40px;
+    border: transparent;
+}
+#button-obter:hover {
+    background-color: black;
+    border:1px solid white;
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+}
+.Imagens-Celular {
+    background: url('../../assets/fundoNossoAplicativo.png') no-repeat right
+}
+#celulares {
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/Celular_nossoAplicativo.png') center no-repeat;
+    background-size:60% 80%
+}
+@media screen and (min-width: 300px) {
+    .Span-NossoAplicativo {
+        flex-direction: column;
+    }
+    .Nosso-Aplicativo-texto h3 {
+        color: rgb(240, 92, 116);
+        font-size: 23px;
+        width: 100%;
+    }
+    .Nosso-Aplicativo-texto {
+        width: 100%;
+    }
+    .Imagens-Celular {
+        display: none;
+    }
+    .prg-span {
+        width: 100%;
+    }
+    #button-obter { 
+        width: 60%;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 700px) {
+    .Principal-NossoAplicativo {
+        height: calc(75vh - var(--nav-bar-height)); 
+    }
+    .Span-NossoAplicativo {
+        flex-direction: column;
+    }
+    .Nosso-Aplicativo-texto {
+        width: 100%;
+    }
+    .Imagens-Celular {
+        display: none;
+    }
+    #button-obter {
+        width: 40%;
+    }
+    .prg-span {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .Principal-NossoAplicativo {
+        height: calc(100vh - var(--nav-bar-height)); 
+    }
+    .Span-NossoAplicativo {
+        flex-direction: row;
+    }
+    .Nosso-Aplicativo-texto {
+        width: 50%;
+    }
+    .Imagens-Celular {
+        display: flex;
+    }
+    #button-obter {
+        width: 30%;
+    }
+    .prg-span {
+        width: 40%;
+    }
+}
