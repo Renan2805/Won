@@ -2,7 +2,7 @@
   height: 10vh;
 }
 .land-section {
-  background: url('../../assets/fundoPixelado.png') center no-repeat;
+  background: url('../../assets/fundoPixelado.png') right no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -136,4 +136,25 @@
   .land-section a {
     margin-top: 3rem;
   }
+}
+@media screen and (min-width: 1450px) {
+  .land-text {
+    font-size: 2rem;
+  }
+  .text-one {
+    font-size:40px ;
+  }
+  .second-text {
+    font-size: 24px;
+  }
+  .land-section .button-projeto {
+    font-size: 20px;
+}
+.land-illustration {
+  max-width: 45%;
+}
+.land-section {
+  background-position-x: 100%;
+  background-position-y: 0%;
+}
 }

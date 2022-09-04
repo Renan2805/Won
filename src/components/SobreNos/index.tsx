@@ -6,27 +6,44 @@ import { Carousel } from 'react-responsive-carousel'
 const SobreNos = () => {
   return (
     <div className='div-SobreNos'>
-      <h1 id="">Sobre Nós</h1>
-      <span className='Span-SobreNos'>
-        <div className='spans-SobreNos-conteudo'>
-          <FaTrophy size={60} color="blue" className='icon-SobreNos'></FaTrophy>
-          <h1 id='missao'>MISSÃO</h1>
-          <br />
-          <p>Revolucionar o mercado de TI, incluindo mulheres nos lugares onde são grande menoria, e ajuda-las a encontrar o hambiente de trabalho que ela quiser.</p>
+      <div className='divtitulo-SobreNos'>
+        <h1>Sobre nós</h1>
+      </div>
+      <div className='Span-conteudo'>
+        <div className='span1'>
+          <div className='icon-sobrenos'>
+            <FaTrophy size={60} color='blue' className='iconSobre'/>
+          </div>
+          <div className='titulo-icon'>
+            <h1 id='obje'>OBJETIVO</h1>
+          </div>
+          <div className='descricao-icon'>
+            <p>Revolucionar o mercado de TI, incluindo mulheres nos lugares onde são grande menoria, e ajuda-las a encontrar o hambiente de trabalho que ela quiser.</p>
+          </div>
         </div>
-        <div className='spans-SobreNos-conteudo'>
-          <FaPhabricator size={60} color="purple" className='icon-SobreNos'>VISÃO</FaPhabricator>
-          <h1 id='visao'>VISÃO</h1>
-          <br />
-          <p id='prg'>Ser reconhecida como a empresa que revolucionou o mercade de TI para mulheres, aumentando ainda mais o numeros de empregos gerados área de Técnologia.</p>
+        <div className='span1'>
+          <div className='icon-sobrenos' id='diferencial'>
+            <FaPhabricator size={60} color='purple' className='iconSobre'/>
+          </div>
+          <div className='titulo-icon'>
+            <h1 id='visao'>VISÃO</h1>
+          </div>
+          <div className='descricao-icon'>
+            <p>Ser reconhecida como a empresa que revolucionou o mercade de TI para mulheres, aumentando ainda mais o numeros de empregos gerados área de Técnologia.</p>
+          </div>
         </div>
-        <div className='spans-SobreNos-conteudo'>
-          <FaDollarSign size={60} color="magenta" className='icon-SobreNos'>VALORES</FaDollarSign>
-          <h1 id='valor'>VALORES</h1>
-          <br />
-          <p>Prezamos pela inclusão, respeito e responsabilidade. Sem inclusão não há respeito, e sem respeito não há responsabilidades;</p>
+        <div className='span1'>
+          <div className='icon-sobrenos'>
+            <FaDollarSign size={60} color='magenta' className='iconSobre'/>
+          </div>
+          <div className='titulo-icon'>
+            <h1 id='valor'>VALORES</h1>
+          </div>
+          <div className='descricao-icon'>
+            <p>Prezamos pela inclusão, respeito e responsabilidade. Sem inclusão não há respeito, e sem respeito não há responsabilidades;</p>
+          </div>
         </div>
-      </span>
+      </div>
     </div>
   ) 
 }

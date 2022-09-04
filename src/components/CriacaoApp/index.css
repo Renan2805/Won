@@ -178,6 +178,7 @@
         width: 90%;
         height: 100%;
         margin: 0;
+        font-size: 21px;
     }
     .img-class {
         max-width:70%;
@@ -198,5 +199,13 @@
         flex-direction: column;
         height: 10rem;
         padding:0;
+    }
+}
+@media screen and (min-width: 1450px) {
+    #titulo-app-criacao {
+        font-size: 35px;
+    }
+    #descricao-criacaoApp {
+        font-size: 30px;
     }
 }

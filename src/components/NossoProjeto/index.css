@@ -71,6 +71,8 @@
         height: calc(160vh - var(--nav-bar-height)); 
         text-align: center;
         padding: 2rem 0 0 0;
+        margin-top: 10rem;
+        margin-bottom: 18rem;
     }
     .divs-conteudos {
         width: 90%;
@@ -82,32 +84,82 @@
 
     }
     .Titulo {
-        margin-bottom: 1rem;
+        margin-bottom: 10rem;
+        margin-top: 5rem;
     }
 }
 @media screen and (min-width: 700px) { 
     .Agrupar-Spans {
-        width: 80%;
-        flex-direction: column;
+        width: 100%;
+        flex-direction: row;
     }
     .Principal-NossoProjeto {
-        height: calc(170vh - var(--nav-bar-height)); 
+        height: calc(100vh - var(--nav-bar-height)); 
+        margin-bottom: 0rem;
+        margin-top: 0rem;
     }
     .divs-conteudos {
-        height: 75%;
-        padding: 1rem;
+        height: 60%;
+        padding: 0rem;
+    }
+    .div-foto2 {
+        height: 35%;
+    }
+    .Titulo {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    .foto-logo {
+        width: 40%;
+        height: 50%;
+        margin-top: 3rem;
+    }
+    #logo-wonti {
+        width: 60%;
+        height:40%;
+    }
+    #lupa {
+        width: 40%;
+        height:60%;
     }
 }
-@media screen and (min-width: 1000px) { 
+@media screen and (min-width: 1024px) { 
     .Agrupar-Spans {
-        width: 80%;
+        width: 85%;
         flex-direction: row;
     }
     .Principal-NossoProjeto {
         height: calc(100vh - var(--nav-bar-height)); 
     }
+    .paragrafo {
+        font-size: 21px;
+    }
     .divs-conteudos {
         height: 90%;
         padding: 0;
     }
+    .foto-logo {
+        width: 40%;
+        height: 60%;
+        margin-top: 3rem;
+    }
+    #logo-wonti {
+        width: 55%;
+        height:40%;
+    }
+    #lupa {
+        width: 42%;
+        height:63%;
+    }
 }
+@media screen and (min-width: 1450px) {
+    .Agrupar-Spans {
+        height: 85%;
+    }
+    .titulo-wonti {
+        font-size: 30px;
+    }
+    .paragrafo {
+        font-size: 23px;
+    }
+} 

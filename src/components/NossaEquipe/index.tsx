@@ -58,9 +58,9 @@ const CarrousselItem = ({ nome, funcao, descricao, foto, links }:membro) => {
             <img src={foto} className="imagemWon"/>
           </div>
           <div className='redesSociais'>
-            <button className='button-rede'><FaGoogle size={30}></FaGoogle></button>
-            <button className='button-rede'><FaGithub size={30}></FaGithub></button>
-            <button className='button-rede'><FaLinkedin size={30}></FaLinkedin></button>
+            <button className='button-rede'><FaGoogle size={30} className='iconsS'></FaGoogle></button>
+            <button className='button-rede'><FaGithub size={30} className='iconsS'></FaGithub></button>
+            <button className='button-rede'><FaLinkedin size={30} className='iconsS'></FaLinkedin></button>
           </div>
         </div>
       </span>

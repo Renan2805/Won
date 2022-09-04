@@ -122,3 +122,24 @@
         height: 7vh;
     }
 }
+@media screen and (min-width: 1450px) {
+    .Titulo-Contato h1{
+        font-size: 30px;
+    }
+    .Contato-Tipo {
+        font-size: 23px;
+    }
+    .button-form {
+        font-size: 23px;
+    }
+    .Assunto {
+        height: 6vh;
+    }
+    .Email {
+        height: 6vh;
+    }
+    .Nome {
+        height: 6vh;
+    }
+
+}

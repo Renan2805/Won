@@ -4,8 +4,7 @@ import ftEliane from '../../assets/eliane.jpg'
 import ftRenan from '../../assets/renan.jpg'
 import ftLucas from '../../assets/valim.jpg'
 import ftRaquel from '../../assets/raquel.jpg'
-import ftBeatriz from '../../assets/valim.jpg'
-import ftGabriel from '../../assets/valim.jpg'
+import ftBeatriz from '../../assets/bia.jpg'
 
 interface membro {
     nome: string,

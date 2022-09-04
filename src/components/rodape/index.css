@@ -20,7 +20,7 @@
     border-radius: 20px;
     width: 35%;
     font-size: 14px;
-    height: 2rem;
+    height: 5vh;
     margin-top: 3rem;
 }
 #button-rodape:hover {
@@ -172,5 +172,20 @@
     }
     .Descricao-Rodape {
         width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (min-width: 1450px) {
+    #titulo-app-rodape {
+        font-size: 22px;
+    }
+    #descricao-app-rodape {
+        font-size: 30px;
+    }
+    #button-rodape {
+        font-size: 20px;
+    }
+    .Copy-rodape p { 
+        font-size: 20px;
     }
 }

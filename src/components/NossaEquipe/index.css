@@ -22,7 +22,7 @@
 .div-foto-equipe {
     width: 40vh;
     padding: 5%;
-    height:85%;
+    height:50vh;
     margin-left: 2rem;
     text-align: center;
     justify-content: center;
@@ -45,7 +45,7 @@
     aspect-ratio: 1/1;
 }
 .redesSociais {
-    height: auto;
+    height: 100%;
     width: 100%;
     margin-top: 1rem;
 }
@@ -53,7 +53,7 @@
     background-color: transparent;
     border: 1px solid black;
     border-radius: 100%;
-    padding: 4px;
+    padding: 3px;
     height: 40px; 
     margin: 3px;  
 }
@@ -94,16 +94,26 @@
 }
 @media screen and (min-width: 300px) {
     #Principal-NossaEquipe {
+        margin-top: 13rem;
+        margin-bottom: 2rem;
         text-align: center;
         height: auto;
+    }
+    .button-rede {
+        width: 6vh;
+        height: 6vh;
+    }
+    .iconsS {
+        width: 5vh;
+        height: 5vh;
     }
     .Membros {
         flex-direction: column;
         display: flex;
     }
     .div-foto-equipe {
-        width: 90%;
-        height: 95%;
+        width: 40vh;
+        height: 50vh;
     }
     .detalhes {
         text-align: center;
@@ -115,11 +125,15 @@
         margin-top: -3rem;
     }
     .funcao button{
+        margin-top: 1.5rem;
         width: 70%;
         text-align: center;
     }
     .nomes {
         width: 100%;
+    }
+    .nome-detalhes p {
+        text-align: left;
     }
 }
 @media screen and (min-width: 700px) {
@@ -131,36 +145,54 @@
         flex-direction: column;
         display: flex;
     }
+    .button-rede {
+        width: 5vh;
+        height: 5vh;
+    }
+    .iconsS {
+        width: 4vh;
+        height: 4vh;
+    }
     .div-foto-equipe {
-            width: 45vh;
-            padding: 5%;
-            height:100%;
-            margin-left: 2rem;
-            text-align: center;
-            justify-content: center;
-            margin: 0 auto;
-            justify-items: center;
+        width: 40vh;
+        height: 50vh;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        justify-items: center;
     }
     .detalhes {
         text-align: center;
         width: 100%;
+        padding: 0;
+    }
+    .button {
+        height: 4vh;
     }
     .funcao {
         text-align: center;
         width: 100%;
-        margin-top: -6rem;
     }
     .funcao button{
-        width: 50%;
+        margin-top: 0;
+        width: 40%;
         text-align: center;
     }
     .nomes {
         width: 100%;
     }
+    .nome-detalhes {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .nome-detalhes p {
+        text-align: left;
+        padding: 1rem;
+    }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
     #Principal-NossaEquipe {
-        margin-top: -4rem;
+        margin-top: -2rem;
     }
     .Membros {
         flex-direction: row;
@@ -169,12 +201,31 @@
     .div-foto-equipe {
         width: 40vh;
         padding: 5%;
-        height:85%;
+        height:50vh;
         margin-left: 2rem;
         text-align: center;
         justify-content: center;
         margin: 0 auto;
         justify-items: center;
+    }
+    .button-rede {
+        width: 7vh;
+        height: 6.5vh;
+    }
+    .iconsS {
+        width: 5vh;
+        height: 5vh;
+    }
+    .nome-detalhes {
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+    .nome-detalhes p {
+        padding: 0;
+        font-size: 22px;
+    }
+    .button {
+        height: 5vh;
     }
     .detalhes {
         width: 80%;
@@ -189,6 +240,32 @@
         text-align: left;
     }
     .funcao button {
+        width: 25%;
+    }
+}
+@media screen and (min-width: 1450px) {
+    .texto {
+        font-size: 30px;
+    }
+    .detalhes p {
+        font-size: 25px;
+    }
+    .nomes {
+        font-size: 32px;
+    }
+    .button {
         width: 20%;
+        height: 5vh;
+        font-size: 20px;
+    } 
+    .div-foto-equipe {
+        width: 40vh;
+        padding: 5%;
+        height:50vh;
+        margin-left: 2rem;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        justify-items: center;
     }
 }
