@@ -27,10 +27,10 @@ const Rodape = () => {
           <p>©Won 2022. Todos os direitos reservados </p>
         </div>
         <div className='icons-Rodape'>
-          <a href={link[0]}><button><FaFacebook size={30}/></button></a>
-          <a href={link[0]}><button><FaInstagram size={30}/></button></a>
-          <a href={link[0]}><button><FaTwitter size={30}/></button></a>
-          <a href={link[0]}><button><FaYoutube size={30}/></button></a>
+          <button><FaInstagram size={30}/></button>
+          <button><FaTwitter size={30}/></button>
+          <button><FaYoutube size={30}/></button>
+          <button><FaFacebook size={30}/></button>
         </div>
       </div>
     </div>
