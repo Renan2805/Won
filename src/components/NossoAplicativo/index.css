@@ -57,6 +57,11 @@
     color: white;
     transition: 1s;
 }
+#link-chato {
+    font-style:none;
+    text-decoration: none;
+    border: transparent;
+}
 .Imagens-Celular {
     background: url('../../assets/fundoNossoAplicativo.png') no-repeat right
 }

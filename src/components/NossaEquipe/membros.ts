@@ -21,9 +21,9 @@ const MEMBROS:Array<membro> = [
     descricao: 'Lorem ipsum sit amet consectetur adi, culpa dicta. sit amet consectetur adi, culpa dicta. Accusantium sint facere quia Accusantium sint facere quia dolor sit amet consectetur adipisicing elit. Alias, culpa dicta. Accusantium sint facere quia voluptates culpa totam eum repellat et! Culpa adipisci voluptatibus accusamus sequi dolorem repr.',
     foto: ftVitor,
     links: [
-      '',
-      '',
-      ''
+      'https://www.instagram.com/vhuugo_19/',
+      'https://github.com/VitorH19',
+      'https://www.linkedin.com/in/v%C3%ADtor-hugo-1165a51a6'
     ]
   },
   {
@@ -55,7 +55,7 @@ const MEMBROS:Array<membro> = [
     foto: ftRenan,
     links: [
       '',
-      '',
+      'https://github.com/Renan2805',
       ''
     ]
   },

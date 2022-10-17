@@ -15,7 +15,9 @@ const NossoAplicativo = () => {
             <div className='prg-span'><p className='txt-aplicativo'>Candidata baixe o aplicativo WonTI gratuitamente em todas as lojas de aplicações, realize seu cadastro e inscreva-se nas vagas que mais interessam a voce.</p></div>
             <div className='prg-span'><p className='txt-aplicativo'>Empresas podem obté-lo gratuitamente para que possam adicionar novas vagas e terem contato com as mais talentosas mulheres da tecnologia</p></div>
           </span>
-          <button id='button-obter'>Obter aplicativo</button>
+          <a href="https://wonti-site.vercel.app/" id='link-chato'>
+            <button id='button-obter'>Obter aplicativo</button>
+          </a>
         </div>
         <div className='Imagens-Celular'>
           <div id="celulares"></div>

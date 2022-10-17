@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 import { IoIosArrowRoundForward, IoIosArrowRoundBack  } from 'react-icons/io'
 import { Carousel } from 'react-responsive-carousel'
-import { FaGithub, FaLinkedin, FaGoogle} from 'react-icons/fa'
+import { FaGithub, FaLinkedinIn, FaGoogle, FaInstagram} from 'react-icons/fa'
 import Team from '../../assets/teamAtualizado.svg'
 import MEMBROS from './membros'
 
@@ -15,7 +15,6 @@ const NossaEquipe = () => {
 
       {/* Carrosel de Membros */}
       <Carousel 
-        autoPlay
         showStatus={false}
         infiniteLoop
         showIndicators={true}
@@ -58,9 +57,9 @@ const CarrousselItem = ({ nome, funcao, descricao, foto, links }:membro) => {
             <img src={foto} className="imagemWon"/>
           </div>
           <div className='redesSociais'>
-            <button className='button-rede'><FaGoogle size={30} className='iconsS'></FaGoogle></button>
-            <button className='button-rede'><FaGithub size={30} className='iconsS'></FaGithub></button>
-            <button className='button-rede'><FaLinkedin size={30} className='iconsS'></FaLinkedin></button>
+            <a href={links[0]}><button className='button-rede'><FaInstagram size={30} className='iconsS'></FaInstagram></button></a>
+            <a href={links[1]}><button className='button-rede'><FaGithub size={30} className='iconsS'></FaGithub></button></a>
+            <a href={links[2]}><button className='button-rede'><FaLinkedinIn size={30} className='iconsS'></FaLinkedinIn></button></a>
           </div>
         </div>
       </span>

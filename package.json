@@ -9,6 +9,7 @@
     "@types/babel__generator": "^7.6.4",
     "@types/jest": "^27.4.1",
     "@types/node": "^16.11.26",
+    "bootstrap": "^5.2.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-responsive-carousel": "^3.2.23",
