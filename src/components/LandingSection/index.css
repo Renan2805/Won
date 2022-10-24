@@ -158,3 +158,9 @@
   background-position-y: 0%;
 }
 }
+@media screen and (max-height: 700px) {
+  .land-section {
+    background-position-x: 65%;
+    background-position-y: 10%;
+  }
+}

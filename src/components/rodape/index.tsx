@@ -4,7 +4,8 @@ import CelularCopy from '../../assets/Celular_Copyright.png'
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube} from 'react-icons/fa'
 
 const link = [
-  'https://www.instagram.com/won_empresa/'
+  'https://www.instagram.com/wonempresa/',
+  'https://wonti-site.vercel.app/'
 ]
 
 const Rodape = () => {
@@ -14,7 +15,7 @@ const Rodape = () => {
         <div className='Descricao-Rodape'>
           <h4 id='titulo-app-rodape'>APP DA WONTI</h4>
           <h1 id='descricao-app-rodape'>Baixe o aplicativo da WonTI e tenha acesso a diversas vagas de emprego na área de T.I</h1>
-          <a href="https://wonti-site.vercel.app/">
+          <a href={link[1]}>
             <button id='button-rodape'>FAZER DOWNLOAD</button>
           </a>
         </div>
@@ -27,10 +28,9 @@ const Rodape = () => {
           <p>©Won 2022. Todos os direitos reservados </p>
         </div>
         <div className='icons-Rodape'>
-          <button><FaInstagram size={30}/></button>
-          <button><FaTwitter size={30}/></button>
-          <button><FaYoutube size={30}/></button>
-          <button><FaFacebook size={30}/></button>
+          <a href={link[0]}><button><FaInstagram size={30}/></button></a>
+          <a href=''><button><FaYoutube size={30}/></button></a>
+          <a href=''><button><FaFacebook size={30}/></button></a>
         </div>
       </div>
     </div>

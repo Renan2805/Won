@@ -12,7 +12,7 @@ const NossoProjeto = () => {
           <div className='div-foto2'>
             <img src={Logo} alt="" className='foto-logo' id='logo-wonti' />
           </div>
-          <div className='div-descricao'>
+          <div className='div-descricao' id='boraBill'>
             <h2 className='titulo-wonti'>NOME</h2>
             <br />
             <p className='paragrafo'>O nome é WonTI, junção de Woman e T.I. A ideia desse nome é a inclusão da mulher na área de T.I.</p>

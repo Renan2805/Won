@@ -179,3 +179,9 @@
         height: calc(80vh - var(--nav-bar-height));
     }
 }
+@media screen and (max-height: 700px) {
+    .Principal-NossoAplicativo {
+        margin-top: 30rem;
+        margin-bottom: 23rem;
+    }
+}
