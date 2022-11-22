@@ -134,6 +134,9 @@
     .paragrafo {
         font-size: 21px;
     }
+    .Titulo {
+        margin-top: 12rem;
+    }
     .divs-conteudos {
         height: 90%;
         padding: 0;
@@ -158,6 +161,9 @@
     }
     .titulo-wonti {
         font-size: 30px;
+    }
+    .Titulo {
+        margin-top: 0rem;
     }
     .paragrafo {
         font-size: 23px;

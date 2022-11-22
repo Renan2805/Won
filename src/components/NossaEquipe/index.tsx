@@ -15,6 +15,7 @@ const NossaEquipe = () => {
 
       {/* Carrosel de Membros */}
       <Carousel 
+        autoPlay
         showStatus={false}
         infiniteLoop
         showIndicators={true}

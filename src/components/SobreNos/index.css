@@ -127,3 +127,8 @@
         margin-top: 12vh;
     }
 }
+@media screen and (max-height: 850px) {
+    .div-SobreNos {
+        margin-top: 10rem;
+    }
+}

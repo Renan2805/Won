@@ -107,6 +107,7 @@
         height: auto;
     }
     .button-rede {
+        border: 0;
         width: 6vh;
         height: 6vh;
     }
@@ -200,6 +201,7 @@
 @media screen and (min-width: 1024px) {
     #Principal-NossaEquipe {
         margin-top: -2rem;
+        margin-bottom: 12rem;
     }
     .Membros {
         flex-direction: row;
@@ -251,6 +253,10 @@
     }
 }
 @media screen and (min-width: 1450px) {
+    #Principal-NossaEquipe {
+        margin-top: -2rem;
+        margin-bottom: 1rem;
+    }
     .texto {
         font-size: 30px;
     }
@@ -281,6 +287,6 @@
         margin-top: 2.5vh;
     }
     .button-rede{
-        padding: 4px;
+        padding: 4px
     }
 }
