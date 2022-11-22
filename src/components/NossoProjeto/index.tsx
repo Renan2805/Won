@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 import Card2 from '../../assets/card2.png'
 import Card3 from '../../assets/card3.png'
-import Logo from '../../assets/LogoWonti.png'
+import Logo from '../../assets/Logo_Wonti.png'
 const NossoProjeto = () => {
   return (
     <div className='Principal-NossoProjeto' id='Principal-NossoProjeto'>

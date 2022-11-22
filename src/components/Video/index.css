@@ -23,6 +23,10 @@
     margin: 0 2rem 0 0;
     cursor: pointer;
 }
+.video {
+    width: 100%;
+    height: 100%;
+}
 @media screen and (min-width: 300px) { 
     .div-video {
         height: 30%;

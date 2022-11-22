@@ -39,7 +39,8 @@
     margin-top: 3rem;
 }
 #logo-wonti {
-    width: 55%;
+    object-fit: cover;
+    width: 45%;
     height:40%;
 }
 #lupa {
@@ -147,8 +148,8 @@
         margin-top: 3rem;
     }
     #logo-wonti {
-        width: 55%;
-        height:40%;
+        width: 45%;
+        height:60%;
     }
     #lupa {
         width: 42%;

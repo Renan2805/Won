@@ -14,7 +14,7 @@ const Video = () => {
   return (
     <div className='Principal-video'>
       <div className='div-video'>
-        <iframe src="https://www.youtube.com/embed/Mt8vmH8oIxI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe className="video"src="https://www.youtube.com/embed/Mt8vmH8oIxI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
       <div className='div-iconsVideo'>
         <a href={links[0]}><button className='button-video'><FaInstagram size={45} color={'white'}></FaInstagram></button></a>
