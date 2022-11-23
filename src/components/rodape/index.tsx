@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import CelularCopy from '../../assets/Celular_Copyright.png'
+import CelularCopy from '../../assets/Celular_Copyright_Nova.png'
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube} from 'react-icons/fa'
 
 const link = [
